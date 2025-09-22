@@ -33,7 +33,7 @@
 % ===================== SECTION: Muzzle Velocity ========================
 \newpage
 \section{Muzzle Velocity}
-To determine theoretical range with projectile analysis, we find $v_i$ by muzzle velocity experiment. In this experiment, after Nikolay says 3, 2, 1, dart is launched from $1\mathrm{m}$ high and we are timing until hear the sound of dart hit the ground.
+To determine theoretical range with projectile analysis, we find $v_i$ by muzzle velocity experiment. In this experiment, observer Nikolay gives us countdown and dart is launched from $1\mathrm{m}$ high and we are timing until hear the sound of dart hit the ground.
 Five observers timed vertical launch at the same time to reduce individual reaction-time bias.
 
 \subsection{Data Table (Vertical Time of Flight, s)}
@@ -182,7 +182,7 @@ v_i = \frac{d - \tfrac12 a t^2}{t}.
 \vspace{1em}
 As comparing Timing and Meter Stick uncertainty, 
 Meter Stick uncertainty is much smaller than Timing uncertainty (1\% compared to 9.07\%). 
-Therefore, we don't considerate displacement uncertainty. As well as constants.
+Therefore, we do not considerate displacement uncertainty. As well as constants.
 \[
 \Delta v_i \approx \frac{t^2}{t} \approx \Delta t
 \]
@@ -344,7 +344,7 @@ Thus,
 
 \vspace{1em}
 
-\textbf{Dart Bounce} when we measure for $R_{exp}$, the dart bounce off and go father than horizontal landing point. We assume bounce off is 0.20m,
+\textbf{Dart Bounce} when we measure for $R_{exp}$, the dart bounce off and go farther than horizontal landing point. We assume bounce off is 0.20m,
 
 \[
 \Delta R_{bounce}=0.20~\mathrm{m} \ (\approx2.08\%).
@@ -500,7 +500,7 @@ Percent difference:
   \]
   but also $2$, $a$ are constants,  $R_{theory} \propto v_i$. Therefore, this function act like linear. Proportional reasoning use linear approximation while crank 3 method calculate for actual min and max value. Linearity of the function made the similarity \cite{Taylor1997}.
   
-  \item \textbf{Does your experimental (observable) data agree with the calculations using kinematic equations (theoretical). Consider your percent uncertainty from the initial instructions compared to your theoretical estimated uncertainties to help you explain “Why or Why Not” your experimental and theoretical values match?} $R_{\exp}=9.61~\mathrm{m}$ versus $R_{\mathrm{theory}}=7.21~\mathrm{m}\pm0.73~\mathrm{m}$ gives a percent difference of $33.3\%$, which is exceeded the uncertainty ($\%\Delta R_{theory}$). Likely air drag, underestimation of $v_i$, and setup alignment also make biases.
+  \item \textbf{Does your experimental (observable) data agree with the calculations using kinematic equations (theoretical). Consider your percent uncertainty from the initial instructions compared to your theoretical estimated uncertainties to help you explain “Why or Why Not” your experimental and theoretical values match?} $R_{\exp}=9.61~\mathrm{m}$ versus $R_{\mathrm{theory}}=7.21~\mathrm{m}\pm0.73~\mathrm{m}$ gives a percent difference of $33.3\%$, which is exceeded the uncertainty ($\%\Delta R_{theory}$). Likely underestimation of $v_i$ and setup alignment also make biases. (Not the air drag because air resistance slows dart down and we will get shorter range)
   For correction (find possible range that has $R_{exp}$), I assume that $R_{exp}$ is true (as it has low standard deviation) and predict that when Range Experiment, there were elevation of $\theta_{elevate}$.
     Use Kinematic Relation,
     \[
@@ -540,7 +540,7 @@ Percent difference:
 
     \vspace{1em}
 
-    Because I predict small elevation $\theta_{elevate}$, consider $4.7^{\circ}$. So there would be $4.7^{\circ}$ elevation to the horizontal when Range Experiment. This meets the uncertainty of 33.3 \%. 
+    Because I predict small elevation $\theta_{elevate}$, consider $4.7^{\circ}$. So there would be $4.7^{\circ}$ elevation to the horizontal when Range Experiment. This meets the uncertainty of 33.3 \%. I initially ignore this small elevation because I thought it does not matter much but actually, small elevation makes big difference.
     
   
 \end{enumerate}
@@ -566,6 +566,6 @@ J. R. Taylor, \emph{An Introduction to Error Analysis},
 \section*{Code Repository}
 \vspace{0.5em}
 The LaTeX source files and calculation snippets are available at:  
-\url{https://github.com}
+\url{https://github.com/WhiteStoneTak/Projectile-Lab-Report}
 
 \end{document}
